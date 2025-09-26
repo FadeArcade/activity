@@ -1,7 +1,7 @@
-import { useState } from 'react'
+{/*import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
-import './App.css'
+import './App.css' 
 
 function App() {
   const [count, setCount] = useState(0)
@@ -32,4 +32,29 @@ function App() {
   )
 }
 
+export default App*/}
+import React from "react";
+{/*import Welcome from "./lesson2/Welcome";
+import PropsGreet from "./lesson2/PropsGreet"*/}
+import Clickmebutton from "./lesson3/Clickmebutton";
+/*import Change from "./lesson3/Change";*/
+
+function App(){
+  return(
+    <div>
+      {/* Lesson 2 */}
+      {/*
+      <PropsGreet name="Michael Jackson" />
+      <PropsGreet name="Michael Jackson" />
+      <PropsGreet name="Michael Jackson" />
+      */}
+      {/* Lesson 3 */}
+      <Clickmebutton/>
+      {/*<Change/>*/}
+      
+    </div>
+
+  )
+  
+}
 export default App
